@@ -1,0 +1,89 @@
+table {
+    border-collapse: collapse;
+    margin: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+th {
+    background-color: #ddd;
+    color: #000000;
+    font-weight: bold;
+}
+
+td,th {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, sans-serif;
+}
+
+a:hover {
+    color:blue;
+}
+
+a:visited {
+    color:whitesmoke;
+}
+
+#spis_tresci {
+    align-content: center;
+    padding:10px;
+}
+
+#tabela {
+    margin: auto;
+    text-align: center;
+}
+
+#adam {
+    text-align: center;
+}
+
+#li {
+    text-align: center;
+}
+
+#li_tekst {
+    margin-left: 45%;
+    text-align: left;
+}
+
+#roy {
+    margin-right: 45%;
+    text-align: right;
+}
+
+p:hover {
+    text-decoration: underline;
+}
+
+.b1,.b2,.b3 {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #1a6ce7;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.b1:hover,.b2:hover,.b3:hover{
+    background-color: #0651c2;
+}
+.b1:active,.b2:active,.b3:active {
+    background-color: #0651c2;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#zdj1,#zdj2{
+    width: 200px;
+    height: 300px;
+}
